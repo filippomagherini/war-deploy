@@ -22,9 +22,10 @@
     <artifactId>spring-boot-starter-tomcat</artifactId>
     <scope>provided</scope>
    </dependency>
+   
    ```
    
-    3. Deploy War file on Tomcat
+  3. Deploy War file on Tomcat
    * Build the project: maven clean install. Then go to target folder, we have a war file:
    * Copy the .war to apache-tomcat-8.5.13\webapps folder and rename it to javasampleapp.
    * Go to apache-tomcat-8.5.13\bin, then start: startup.bat(startup.sh)
